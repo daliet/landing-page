@@ -81,13 +81,7 @@ button:hover {
     text-align: center;
 }
 
-iframe {
-    width: 90%;
-    height: 70vh;
-}
-
 .section-2 {
-    margin-top: 100px;
     display: flex;
 }
   
@@ -98,6 +92,7 @@ iframe {
 
 button {
     font-family: inherit;
+    font-weight: bold;
     display: block;
     width: 100%;
     padding: 0.5em 1rem;
@@ -116,7 +111,7 @@ button {
 
 figcaption {
     margin-top: 7%;   
-    font-size: 0.7em;  
+    font-size: 1.5rem;  
     text-align: center;
 }
 
@@ -224,7 +219,7 @@ footer {
  
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:463px) {
     .logo-text {
         display: none;
     }
