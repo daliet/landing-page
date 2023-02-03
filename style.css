@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Coustard&display=swap');
+
+body {
+    font-family: 'Coustard', sans-serif;
+    background:#F2F2F2;
+    font-size: 2rem;
+    margin: 0;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+#header {
+    display: flex;
+    position: fixed; 
+    background: white;
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    max-height: 15%;
+}
+
+#header-img {
+    max-width: 13%;
+}
+
+.logo-text {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 10px;
+    margin-top: 10px;  
+}
+
+#nav-bar {
+   width: 100%;
+   font-weight: bold;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 33%;
+}
+
+li:hover {
+    background-color:#f0f0f0;
+}
+
+a {  
+    padding: 0;
+    text-decoration: none;
+    color: #007af3;
+}
+
+h1, a, button, label, .btn {
+    font-size: 2rem;
+}
+
+.btn:hover {
+    background-color: #5097dd;
+}
+ 
+button:hover {
+    background-color: #5097dd;
+}
+
+.section-1 {
+    margin-top: 150px;
+    text-align: center;
+}
+
+iframe {
+    width: 90%;
+    height: 70vh;
+}
+
+.section-2 {
+    margin-top: 100px;
+    display: flex;
+}
+  
+.scooter-img {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    font-family: inherit;
+    display: block;
+    width: 100%;
+    padding: 0.5em 1rem;
+    background: #007af3;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+  
+.column {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    align-self: stretch;
+}
+
+figcaption {
+    margin-top: 7%;   
+    font-size: 0.7em;  
+    text-align: center;
+}
+
+.section-3 {
+    margin-top: 50px;
+    width: 100vw;   
+}
+
+
+label {
+    display: block;
+}
+
+input {
+    border-radius: 5px;
+    width: 50%;
+    font-size: 1.2rem;
+    height: 3rem;
+}
+
+textarea {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.btn {
+    background:#007af3;
+    text-transform: capitalize; 
+    font-weight: bold;
+    font-family: inherit;
+    width: 50%;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: auto;
+    margin-bottom: -15px;
+    padding-left: .2rem;
+    width: 100%;
+    font-size: 1.5rem;
+    background: hsl(210, 18%, 15%);
+    color: white;
+    line-height: 2rem;
+}
+
+@media screen and (max-width:832px) {
+
+    #header {   
+        height: 10vh;
+    }
+
+    .logo-text {
+        font-size: 1.2rem;
+    }
+
+    .section-1 {
+        margin-top: 80px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        width: 97%;
+    } 
+
+    .btn, label, a, input, textarea {
+        font-size: 1.2rem;
+        width: 85%;
+    }
+        
+    .section-2 {
+        display: grid;
+        margin: auto;
+    }
+
+    figcaption {
+        width: 80%;
+        margin-top: -10%;
+    }
+
+    .scooter-img {
+        width: 80%;
+        height: 80%;
+    }
+
+    button {
+        font-size: 1.2rem;
+    }
+
+    .section-3 {
+        margin: auto;
+        width: 100%;
+    }
+
+    .btn {
+        margin-bottom: 15px;
+    }
+
+    footer {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+ 
+}
+
+@media screen and (max-width:400px) {
+    .logo-text {
+        display: none;
+    }
+   
+}
